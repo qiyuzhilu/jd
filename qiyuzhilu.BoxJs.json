@@ -210,7 +210,7 @@
     }, {
       "name": "初始化设置",
       "script": "https://gist.githubusercontent.com/NobyDa/91cbe57dd50b3588a975af8922507a72/raw/JD_initial.js"
-    }],
+    },
      {
       "id": "jd_gyec",
       "name": "工业品爱消除",
