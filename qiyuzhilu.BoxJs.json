@@ -1,6 +1,6 @@
 {
   "id": "NobyDa.app.sub",
-  "name": "梦之步网络科技",
+  "name": "NobyDa 脚本订阅",
   "author": "@NobyDa",
   "icon": "https://avatars2.githubusercontent.com/u/53217160",
   "repo": "https://github.com/NobyDa/Script/tree/master",
@@ -210,8 +210,30 @@
     }, {
       "name": "初始化设置",
       "script": "https://gist.githubusercontent.com/NobyDa/91cbe57dd50b3588a975af8922507a72/raw/JD_initial.js"
+    }],
+    "author": "@NobyDa",
+    "repo": "https://github.com/NobyDa/Script/tree/master/JD-DailyBonus",
+    "icons": ["https://raw.githubusercontent.com/Orz-3/mini/master/jd.png", "https://raw.githubusercontent.com/Orz-3/task/master/jd.png"]
+  }, 
+  {
+      "id": "jd_wechat_sign",
+      "name": "京东粉丝专享",
+      "keys": ["JDWECHATEXCHANGE"],
+      "author": "@shylocks",
+      "repo": "https://github.com/shylocks/Loon/blob/main/jd_wechat_sign.js",
+      "settings": [
+        {
+          "id": "JDWECHATEXCHANGE",
+          "name": "京东粉丝专享兑换京豆开关",
+          "val": "",
+          "type": "number",
+          "placeholder": "",
+          "desc": "1兑换京豆，0不兑换京豆"
+        }],
+      "icons": "https://raw.githubusercontent.com/yogayyy/Scripts/main/Icon/shylocks/jd_wechat_sign.png",
+      "script": "https://raw.githubusercontent.com/shylocks/Loon/main/jd_wechat_sign.js"
     },
-      {
+    {
       "id": "jd_gyec",
       "name": "工业品爱消除",
       "keys": ["JDGYEC"],
@@ -227,7 +249,7 @@
           "desc": "填写具体兑换商品的名称，默认为1888京豆"
         }],
       "icons": [
-        "https://raw.githubusercontent.com/yogayyy/Scripts/main/Icon/shylock/jd_gyxxl.png",
+        "https://raw.githubusercontent.com/yogayyy/Scripts/main/Icon/shylocks/jd_gyxxl.png",
         "https://raw.githubusercontent.com/yogayyy/Scripts/main/Mini/shylocks/jd_gyxxl_mini.png"
       ],
       "script": "https://raw.githubusercontent.com/shylocks/Loon/main/jd_gyec.js"
